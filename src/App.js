@@ -1,9 +1,12 @@
 import './App.css';
+import { Navigation } from './components';
 import { Home } from './pages';
 
 function App() {
   return (
-    <Home />
+    <Navigation>
+      <Home />
+    </Navigation>
   );
 }
 
